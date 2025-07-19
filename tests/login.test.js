@@ -1,4 +1,4 @@
-import http, { post } from "k6/http"
+import http from "k6/http"
 import { sleep, check } from "k6"
 const postLogin = JSON.parse(open('../fixtures/postLogin.json'))
 
